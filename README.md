@@ -38,11 +38,6 @@ README.md
 - Displays an image with pixel axes.
 
 ## 🛠 Requirements
-
-```bash
-pip install -r requirements.txt
-
-
 ---
 
 ## 🚀 Features
