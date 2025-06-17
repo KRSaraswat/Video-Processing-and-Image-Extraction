@@ -41,3 +41,28 @@ README.md
 
 ```bash
 pip install -r requirements.txt
+
+
+---
+
+## 🚀 Features
+
+- **Frame Extraction**: Extract frames from video in a specific time range.
+- **Rotation**: Rotate all images in a ZIP archive.
+- **Cropping**: Crop all images in a folder.
+- **Renaming and Zipping**: Rename images sequentially and zip them.
+- **Grid Visualization**: Arrange images into a grid layout with numbering.
+
+---
+
+## ✅ Requirements
+
+- `moviepy`
+- `Pillow`
+- `numpy`
+
+Install them via:
+
+```bash
+pip install moviepy pillow numpy
+
