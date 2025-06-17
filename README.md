@@ -43,8 +43,8 @@ README.md
 ## 🚀 Features
 
 - **Frame Extraction**: Extract frames from video in a specific time range.
-- **Grid Visualization**: Arrange images into a grid layout with numbering (Helps in identifying pixel range for cropping).
 - **Rotation**: Rotate all images in a ZIP archive.
+- **Grid Visualization**: Arrange images into a grid layout with numbering (Helps in identifying pixel range for cropping).
 - **Cropping**: Crop all images in a folder.
 - **Renaming and Zipping**: Rename images sequentially and zip them.
 
