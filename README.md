@@ -65,3 +65,46 @@ Install them via:
 ```bash
 pip install moviepy pillow numpy
 
+📌 Usage Overview
+1. Extract Frames
+```
+from video_processing.video_to_frames import video_to_frames_time_range_and_zip
+
+video_to_frames_time_range_and_zip(
+    video_path='input.mp4',
+    output_folder='frames/',
+    zip_filename='frames.zip',
+    start_time_sec=0,
+    end_time_sec=10,
+    frame_rate=1
+)
+```
+2. Rotate Images from ZIP
+```
+from image_processing.rotate_zip_images import rotate_images_from_zip
+
+rotate_images_from_zip('frames.zip', 'rotated_frames/', angle=90)
+```
+3. Visualize as Grid (To figure out pixel range for cropping)
+```
+from image_processing.visualize_image_grid import create_image_grid
+
+create_image_grid(
+    image_folder='rotated_frames',
+    output_folder='image_grids',
+    cols=3,
+    rows=4
+)
+```
+4. Crop Images
+```
+from image_processing.crop_images import crop_images_in_folder
+
+crop_images_in_folder('rotated_frames/', left=100, top=200, right=600, bottom=500)
+```
+5. Rename and Zip
+```
+from image_processing.rename_and_zip import rename_images_and_zip
+
+rename_images_and_zip('rotated_frames/cropped_images', 'processed_images.zip')
+```
