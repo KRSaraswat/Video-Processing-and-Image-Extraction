@@ -2,17 +2,22 @@
 This project provides tools to extract and process frames from video and images for tasks such as graph data extraction, image rotation, cropping, renaming, and visualization.
 
 ## Project Structure
-```video_processing/
-└── video_to_frames.py
-
-image_processing/
-├── rotate_zip_images.py
-├── crop_images.py
-├── rename_and_zip.py
-└── visualize_image_grid.py
-
-README.md
-.gitignore
+```Video-Processing-and-Image-Extraction/
+│
+├── image_processing/
+│   ├── rotate_images.py
+│   ├── crop_images.py
+│   ├── rename_and_zip.py
+│   ├── create_image_grids.py
+│
+├── video_processing/
+│   └── extract_frames.py
+│
+├── LICENSE
+│
+├── README.md
+│
+└── setup.py
 ```
 
 ## 📦 Modules
