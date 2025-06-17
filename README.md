@@ -1,7 +1,8 @@
 # Video-Processing-and-Image-Extraction: Crop and Rotate Frames (Folder - Video Frames Processing)
 This project provides tools to extract and process frames from video and images for tasks such as graph data extraction, image rotation, cropping, renaming, and visualization.
 
-video_processing/
+## Project Structure
+```video_processing/
 └── video_to_frames.py
 
 image_processing/
@@ -12,7 +13,7 @@ image_processing/
 
 README.md
 .gitignore
-
+```
 
 ## 📦 Modules
 
