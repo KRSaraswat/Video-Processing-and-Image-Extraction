@@ -2,7 +2,8 @@
 This project provides tools to extract and process frames from video and images for tasks such as graph data extraction, image rotation, cropping, renaming, and visualization.
 
 ## Project Structure
-```Video-Processing-and-Image-Extraction/
+```
+Video-Processing-and-Image-Extraction/
 │
 ├── image_processing/
 │   ├── rotate_images.py
