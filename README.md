@@ -64,6 +64,7 @@ Install them via:
 
 ```bash
 pip install moviepy pillow numpy
+```
 
 📌 Usage Overview
 1. Extract Frames
