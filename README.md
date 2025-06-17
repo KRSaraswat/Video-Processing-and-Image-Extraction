@@ -8,7 +8,7 @@ This project provides tools to extract and process frames from video and images 
 │   ├── rotate_images.py
 │   ├── crop_images.py
 │   ├── rename_and_zip.py
-│   ├── create_image_grids.py
+│   ├── visualize_image_grids.py
 │
 ├── video_processing/
 │   └── extract_frames.py
@@ -35,13 +35,10 @@ This project provides tools to extract and process frames from video and images 
 ### 4. `image_processing/rename_and_zip.py`
 - Renames images sequentially and zips the folder.
 
-### 5. `image_processing/create_image_grids.py`
+### 5. `image_processing/visualize_image_grids.py`
 - Arranges images into 3x4 grids.
 - Adds image index on each image.
 - Maintains original scaling.
-
-### 6. `plotting/plot_pixels.py`
-- Displays an image with pixel axes.
 
 ## 🛠 Requirements
 ---
